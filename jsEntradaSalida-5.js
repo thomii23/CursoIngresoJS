@@ -12,7 +12,5 @@ function Mostar()
 	nombre=document.getElementById('elNombre').value=nombre;
     edad=document.getElementById('laEdad').value=edad;
     alert("Usted se llama "+nombre+" y tiene " +edad+" años");
-
-
 }
 

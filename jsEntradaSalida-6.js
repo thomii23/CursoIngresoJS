@@ -12,8 +12,5 @@ numeroUno=parseInt(numeroUno);
 numeroDos=parseInt(numeroDos);
 resultado=numeroUno+numeroDos;
 alert(parseInt(numeroUno)+parseInt(numeroDos));
-	
-
-
 }
 
