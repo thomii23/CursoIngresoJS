@@ -55,8 +55,29 @@ function verificar()
 
 }
 function thomy(intentos)	
-{
-if(intentos==1)
+{	
+	switch(intentos){
+			case 1 : {alert("usted es un Psíquico");break;}
+			case 2 : {alert("excelente percepción");break;}
+			case 3 : {alert("Esto es suerte");break;}
+			case 4 : {alert("Excelente técnica");break;}
+			case 5 : {alert("usted está en la media");break;}
+			
+		}
+		if(intentos>=6 && intentos<=10)
+			{
+				alert("falta tecnica pa");
+			}
+		if(intentos>10)
+			{
+				alert("afortunado en el amor");
+			}
+
+}
+
+
+
+/*if(intentos==1)
 {
 	alert("usted es un Psíquico");
 }
@@ -83,15 +104,4 @@ if(intentos>=6 && intentos<=10)
 if(intentos>10)
 {
 	alert("afortunado en el amor");
-}
-
-
-
-
-
-
-
-
-
-
-}
+}*/
