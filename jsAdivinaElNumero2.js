@@ -76,6 +76,14 @@ if(intentos==5)
 {
 	alert("usted está en la media");
 }
+if(intentos>=6 && intentos<=10)
+{
+	alert("falta tecnica pa");
+}
+if(intentos>10)
+{
+	alert("afortunado en el amor");
+}
 
 
 
