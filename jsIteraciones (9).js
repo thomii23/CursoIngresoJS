@@ -46,6 +46,11 @@ function Mostrar()
 
 //cantidad de mujeres que aprobadas con nota par y son menor de edad
 
+if(sexo==femenino && nota>3)
+{
+	aprobados=nota;
+}
+
 
 	//edad promedio de las mujeres
 
